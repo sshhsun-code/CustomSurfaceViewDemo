@@ -71,7 +71,7 @@ public class MultiCircleProgressView extends SurfaceView implements SurfaceHolde
         mProgressPaint = new Paint();
         mProgressPaint.setAntiAlias(true);
         mMetrics = getResources().getDisplayMetrics();
-        mProgressCenterY = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 240, mMetrics);
+        mProgressCenterY = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 200, mMetrics);
         mLogoMarginLeft = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 16, mMetrics);
         mLogoMarginTop = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10, mMetrics);
         mLogoSize = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 20, mMetrics);
